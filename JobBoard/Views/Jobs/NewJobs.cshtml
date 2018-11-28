@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Board</title>
+    </head>
+    <body>
+        <h1>Enter your new job listing here:</h1>
+
+        <form action="/jobboard/new" method="post">
+            <label for="title">Job title</label>
+            <input id="title" name="title" type="text">
+            <label for="description">Job Description</label>
+            <input id="description" name="description" type="text">
+            <label for="startingDate">Starting Date</label>
+            <input id="startingDate" name="startingDate" type="text">
+            <label for="hourlyRate">Starting Hourly Rate</label>
+            <input id="hourlyRate" name="hourlyRate" type="text">
+
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+
+</html>
